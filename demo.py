@@ -5,7 +5,7 @@ import os.path
 import cv2
 
 img_dir=os.path.normpath(os.path.join(os.path.dirname(__file__),'./imgs'))
-img=cv2.imread(os.path.join(img_dir,'demo2.png'))
+img=cv2.imread(os.path.join(img_dir,'4.jpg'))
 
 #test1
 #demo_viper_with_retinex(os.path.join(img_dir,'VIPeR.v1.0'),retinex_AMSR)
